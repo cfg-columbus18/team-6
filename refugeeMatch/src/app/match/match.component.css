@@ -32,3 +32,12 @@
     margin-top: 15px;
     width: 100px;
   }
+  .matchBtn {
+    background-color: #ffae2f;
+    border: solid #ffae2f 1px;
+    color: white;
+    border-radius: 2px;
+    padding: 5px 8px;
+    margin-top: 15px;
+    width: 50px;
+  }

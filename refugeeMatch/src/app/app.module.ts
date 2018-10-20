@@ -8,6 +8,8 @@ import { MatchComponent } from './match/match.component';
 import { MentorComponent } from './mentor/mentor.component';
 import { GeneralComponent } from './general/general.component';
 import { HomeComponent } from './home/home.component';
+import { HttpClientModule } from '@angular/common/http'; 
+
 
 @NgModule({
   declarations: [
@@ -20,6 +22,7 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],
