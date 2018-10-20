@@ -1,0 +1,34 @@
+#top-info {
+    border-top: solid 1.5px grey;
+   }
+   #main {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: solid 1px lightgrey;
+    border-radius: 5px;
+    padding: 30px;
+   }
+   #main ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+   }
+   #main li {
+     font-size: 14px;
+     padding: 8px;
+     border-top: solid grey 0.5px;
+   }
+   #main li:hover {
+    background-color: rgba(240, 240, 240, 1);
+   }
+   button {
+    background-color: #ffae2f;
+    border: solid #ffae2f 1px;
+    color: white;
+    border-radius: 2px;
+    padding: 5px 8px;
+    margin-top: 15px;
+    width: 100px;
+  }

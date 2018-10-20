@@ -1,0 +1,28 @@
+
+    nav {
+    background: #2D2E2E;
+    width: 100%;
+    height: 8%;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    li a{
+
+        color: #fff;
+        padding: 20px;
+        display: block;
+
+            
+    }
+    li a .activated {
+        background-color: #00a8ff;
+     }
+     .topnav-right {
+        float: right;
+      }
+      .topnav-left {
+          float: left;
+      }
