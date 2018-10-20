@@ -10,6 +10,7 @@ import { GeneralComponent } from './general/general.component';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http'; 
 import { AdunitService } from './adunit.service';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { AdunitService } from './adunit.service';
     MatchComponent,
     MentorComponent,
     GeneralComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

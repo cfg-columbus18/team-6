@@ -1,0 +1,53 @@
+
+
+@media screen and (max-width: 700px) {
+  #causeRow {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    display: none;
+  }
+}
+
+.full-height {
+  height: 100vh;
+}
+
+#userBlock{
+  border: solid 1px lightgrey;
+  padding: 50px;
+  margin: 100px;
+  background-color: #fff;
+  border-radius: 1%;
+}
+h4 {
+  text-align: left;
+  padding-left: 35%;
+  color: grey;
+}
+.signup-info {
+  padding-top: 40px;
+  text-align: center;
+}
+#signup-block{
+  background: #ffae2f;
+  width: 100%;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 25%;
+}
+
+.w90 {
+  width: 70%;
+}
+.btn {
+  margin-top: 5%;
+  background-color: grey;
+  margin-right: 5%;
+  color: white;
+  float: right;
+}
