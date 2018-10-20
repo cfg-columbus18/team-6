@@ -9,6 +9,7 @@ import { MentorComponent } from './mentor/mentor.component';
 import { GeneralComponent } from './general/general.component';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http'; 
+import { AdunitService } from './adunit.service';
 
 
 @NgModule({
@@ -25,7 +26,7 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [AdunitService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
